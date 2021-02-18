@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33c939de-8358-4e19-aa56-ca81e2625e76" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j6XrNFlsLPU37FQ43mJw0Dd5GK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\codelex\app\Views" />
+      <recent name="C:\laragon\www\codelex" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\codelex\app\Services\ArticleServices" />
+      <recent name="C:\laragon\www\codelex\app\Services\ArticleServices\ShowArticleService" />
+      <recent name="C:\laragon\www\codelex\app\Services" />
+      <recent name="C:\laragon\www\codelex\Controllers" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33c939de-8358-4e19-aa56-ca81e2625e76" name="Default Changelist" comment="" />
+      <created>1603125713252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603125713252</updated>
+      <workItem from="1603125714704" duration="140000" />
+      <workItem from="1603125868206" duration="581000" />
+      <workItem from="1603126795473" duration="10207000" />
+      <workItem from="1603523426425" duration="10429000" />
+      <workItem from="1603699439010" duration="3795000" />
+      <workItem from="1603708020812" duration="760000" />
+      <workItem from="1603708815130" duration="2297000" />
+      <workItem from="1603872575710" duration="1730000" />
+      <workItem from="1603958295102" duration="3258000" />
+      <workItem from="1604132297960" duration="7148000" />
+      <workItem from="1604305492818" duration="6840000" />
+      <workItem from="1604390779652" duration="2255000" />
+      <workItem from="1604477482788" duration="4709000" />
+      <workItem from="1604564059182" duration="1715000" />
+      <workItem from="1605518655535" duration="821000" />
+      <workItem from="1605774530332" duration="1046000" />
+      <workItem from="1613374305684" duration="390000" />
+      <workItem from="1613375397131" duration="7386000" />
+      <workItem from="1613548950027" duration="7679000" />
+      <workItem from="1613635355164" duration="83000" />
+      <workItem from="1613635446565" duration="1519000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1603524869391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603524869391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Added README.md">
+      <created>1603525113244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603525113244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added configuration using .env&#10;Moved articles to database">
+      <created>1603531673525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603531673525</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated README.md">
+      <created>1603531854771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603531854771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added delete article">
+      <created>1603701487671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603701487671</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added comment section">
+      <created>1603709490800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603709490800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added CommentCollection.php">
+      <created>1603710193350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603710193350</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Login &amp; Register">
+      <created>1604136105300</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604136105300</updated>
+    </task>
+    <task id="LOCAL-00009" summary="users.sql">
+      <created>1604136176918</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604136176918</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Referral system">
+      <created>1604148986026</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604148986026</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added services">
+      <created>1604307815551</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604307815552</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Varu šo iepušot githubā">
+      <created>1604479507332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604479507332</updated>
+    </task>
+    <task id="LOCAL-00013" summary="get all">
+      <created>1604479635130</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604479635130</updated>
+    </task>
+    <task id="LOCAL-00014" summary="get all">
+      <created>1604479657023</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604479657023</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="- Added README.md" />
+    <MESSAGE value="Added configuration using .env&#10;Moved articles to database" />
+    <MESSAGE value="Updated README.md" />
+    <MESSAGE value="Added delete article" />
+    <MESSAGE value="Added comment section" />
+    <MESSAGE value="Added CommentCollection.php" />
+    <MESSAGE value="Login &amp; Register" />
+    <MESSAGE value="users.sql" />
+    <MESSAGE value="Referral system" />
+    <MESSAGE value="Added services" />
+    <MESSAGE value="Varu šo iepušot githubā" />
+    <MESSAGE value="get all" />
+    <option name="LAST_COMMIT_MESSAGE" value="get all" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="927" y="479" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613558959365">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="927" y="479" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613558959365" />
+    <state x="1038" y="345" key="#com.intellij.ide.util.MemberChooser" timestamp="1613550715376">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1038" y="345" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613550715376" />
+    <state x="3567" y="395" key="FileChooserDialogImpl" timestamp="1605775583772">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3567" y="395" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1605775583772" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1613553081909">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1613553081909" />
+  </component>
+</project>
