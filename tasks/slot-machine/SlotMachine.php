@@ -2,17 +2,17 @@
 
 class SlotMachine
 {
+    private const ROW_COUNT = 3;
+
     private array $elements;
     private array $slots = [];
     private array $lines = [];
 
-    private int $verticalSlotsCount;
-    private int $horizontalSlotsCount;
+    private int $columnCount;
 
     public function __construct(
         array $elements,
-        int $verticalSlotsCount = 3,
-        int $horizontalSlotsCount = 3
+        int $columnCount = 3
     )
     {
         foreach ($elements as $element)
@@ -20,17 +20,16 @@ class SlotMachine
             $this->addElement($element);
         }
 
-        $this->verticalSlotsCount = $verticalSlotsCount;
-        $this->horizontalSlotsCount = $horizontalSlotsCount;
+        $this->columnCount = $columnCount;
     }
 
     public function roll(): void
     {
-        for ($v = 0;$v < $this->verticalSlotsCount; $v++)
+        for ($v = 0;$v < SlotMachine::ROW_COUNT; $v++)
         {
             $this->slots[$v] = [];
 
-            for ($h = 0;$h < $this->horizontalSlotsCount; $h++)
+            for ($h = 0;$h < $this->columnCount; $h++)
             {
                 $randomElement = $this->elements[array_rand($this->elements)];
                 $this->slots[$v][$h] = $randomElement;
@@ -42,12 +41,29 @@ class SlotMachine
 
     private function formLines(): void
     {
-        for ($v = 0;$v < $this->verticalSlotsCount; $v++)
+        $this->registerBaseLines();
+        $this->registerDiagonols();
+    }
+
+    private function registerBaseLines(): void
+    {
+        for ($v = 0;$v < SlotMachine::ROW_COUNT; $v++)
         {
             $this->lines[] = new Line($this->slots[$v]);
         }
+    }
 
-        // Logic to add diagonals
+    private function registerDiagonols(): void
+    {
+        $ul = new Line();
+        $rowNr = -1;
+        for ($c = 0;$c < $this->columnCount; $c++)
+        {
+            $direction = intdiv($c, SlotMachine::ROW_COUNT) % 2 === 0 ? -1 : 1;
+            $rowNr -= $direction;
+            $ul->addElement($this->slots[$rowNr][$c]);
+        }
+        $this->lines[] = $ul;
     }
 
     public function getReward(): int

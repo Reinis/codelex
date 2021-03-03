@@ -4,7 +4,7 @@ class Line
 {
     private array $elements = [];
 
-    public function __construct(array $elements)
+    public function __construct(array $elements = [])
     {
         foreach ($elements as $element)
         {
@@ -12,7 +12,7 @@ class Line
         }
     }
 
-    private function addElement(Element $element): void
+    public function addElement(Element $element): void
     {
         $this->elements[] = $element;
     }

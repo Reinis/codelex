@@ -20,7 +20,7 @@ $machine = new SlotMachine([
     new Element('Q', 7),
     new Element('J', 5),
     new Element('X', 20),
-], 3, 4);
+], 5);
 
 $machine->roll();
 
@@ -35,4 +35,3 @@ foreach ($machine->slots() as $slot)
 }
 
 echo $machine->getReward();
-
