@@ -1,5 +1,9 @@
 <?php
 
+namespace App;
+
+use App\Suppliers\Supplier;
+
 class Shop
 {
     private array $suppliers = [];

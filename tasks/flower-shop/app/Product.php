@@ -1,5 +1,9 @@
 <?php
 
+namespace App;
+
+use App\Sellables\Sellable;
+
 class Product
 {
     private Sellable $sellable;

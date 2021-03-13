@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Sellables;
+
 class Tank implements Sellable
 {
     private string $name;

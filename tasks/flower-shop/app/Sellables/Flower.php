@@ -1,6 +1,8 @@
 <?php
 
-class Plant implements Sellable
+namespace App\Sellables;
+
+class Flower implements Sellable
 {
     private string $name;
 
@@ -16,6 +18,6 @@ class Plant implements Sellable
 
     public function id(): string
     {
-        return 'PLANT_' . $this->name();
+        return 'FLOWER_' . $this->name();
     }
 }

@@ -1,0 +1,17 @@
+{
+    "name": "kem4/flower-shop",
+    "authors": [
+        {
+            "name": "Jānis Gitendorfs",
+            "email": "janis.gitendorfs@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

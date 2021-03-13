@@ -1,6 +1,13 @@
 <?php
 
-class WoopWoopSupplier implements Supplier
+namespace App\Suppliers;
+
+use App\Product;
+use App\ProductCollection;
+use App\Sellables\Flower;
+use App\Sellables\Toy;
+
+class HeheSupplier implements Supplier
 {
     private ProductCollection $products;
 

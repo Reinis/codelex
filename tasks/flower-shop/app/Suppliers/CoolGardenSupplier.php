@@ -1,6 +1,12 @@
 <?php
 
-class NBSSupplier implements Supplier
+namespace App\Suppliers;
+
+use App\Product;
+use App\ProductCollection;
+use App\Sellables\Flower;
+
+class CoolGardenSupplier implements Supplier
 {
     private ProductCollection $products;
 
@@ -10,16 +16,16 @@ class NBSSupplier implements Supplier
 
         $this->products->add(
             new Product(
-                new Tank('Panzer', true), 100000
+                new Flower('Tulips Yellow'), 10
             ),
-            3
+            200
         );
 
         $this->products->add(
             new Product(
-                new Plant('Tulips Yellow', true), 12
+                new Flower('Tulips Red'), 12
             ),
-            250
+            300
         );
     }
 

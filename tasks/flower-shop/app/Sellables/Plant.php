@@ -1,14 +1,14 @@
 <?php
 
-class Toy implements Sellable
+namespace App\Sellables;
+
+class Plant implements Sellable
 {
     private string $name;
-    private int $size;
 
-    public function __construct(string $name, int $size)
+    public function __construct(string $name)
     {
         $this->name = $name;
-        $this->size = $size;
     }
 
     public function name(): string
@@ -18,6 +18,6 @@ class Toy implements Sellable
 
     public function id(): string
     {
-        return 'TOY_' . $this->name() . '_' . $this->size;
+        return 'PLANT_' . $this->name();
     }
 }

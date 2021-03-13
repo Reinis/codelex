@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class ProductCollection
 {
     private array $products = [];
