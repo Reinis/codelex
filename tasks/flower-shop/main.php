@@ -24,9 +24,8 @@ if ($age >= 18)
     $shop->addSupplier(new NBSSupplier);
 }
 
-echo Uuid::uuid4() . PHP_EOL;
-
 foreach ($shop->products()->all() as ['product' => $product, 'amount' => $amount])
 {
     echo $product->sellable()->name() . ' ' . $product->price() . ' ( ' . $amount . ' )' . PHP_EOL;
 }
+
