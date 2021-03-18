@@ -4,7 +4,8 @@ namespace App\Suppliers;
 
 use App\Product;
 use App\ProductCollection;
-use App\Sellables\Flower;
+use App\Sellables\Item;
+use Medoo\Medoo;
 
 class CoolGardenSupplier implements Supplier
 {
@@ -14,19 +15,29 @@ class CoolGardenSupplier implements Supplier
     {
         $this->products = new ProductCollection;
 
-        $this->products->add(
-            new Product(
-                new Flower('Tulips Yellow'), 10
-            ),
-            200
-        );
+        $database = new Medoo([
+            'database_type' => 'mysql',
+            'database_name' => 'codelex',
+            'server' => 'localhost',
+            'username' => 'root',
+            'password' => ''
+        ]);
 
-        $this->products->add(
-            new Product(
-                new Flower('Tulips Red'), 12
-            ),
-            300
-        );
+        $productsInfo = $database->select('products', '*');
+
+        foreach ($productsInfo as $productInfo)
+        {
+            $this->products->add(
+                new Product(
+                    new Item(
+                        (int) $productInfo['id'],
+                        $productInfo['name']
+                    ),
+                    (int) $productInfo['price']
+                ),
+                (int) $productInfo['amount']
+            );
+        }
     }
 
     public function products(): ProductCollection

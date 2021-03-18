@@ -9,8 +9,6 @@ use App\Suppliers\HeheSupplier;
 use App\Suppliers\NBSSupplier;
 use App\Suppliers\WoopWoopSupplier;
 
-use Ramsey\Uuid\Uuid;
-
 $shop = new Shop();
 $shop->addSupplier(new AmazingGardenSupplier);
 $shop->addSupplier(new CoolGardenSupplier);
